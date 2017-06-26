@@ -2,6 +2,15 @@
 
 > Rewrite codejs using Vue
 ## Tech stacks: Vue+webpack, Vue-router, Vue-resource, Element-UI
+
+##screenshots
+
+![alt text](./static/img/dv1.png "p1")
+
+![alt text](./static/img/dv2.png "p2")
+
+![alt text](./static/img/dv3.png "fullscreen")
+
 ## Build Setup
 
 ``` bash
