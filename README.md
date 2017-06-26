@@ -1,9 +1,9 @@
-# Vue Single Page App
+# Vue data visualization
 
-> Rewrite codejs using Vue
-## Tech stacks: Vue+webpack, Vue-router, Vue-resource, Element-UI
+> 
+## Tech stacks: Vue+webpack, CSS3(transform), Vue-router, echarts, Element-UI
 
-##screenshots
+### screenshots
 
 ![alt text](./static/img/dv1.png "p1")
 
