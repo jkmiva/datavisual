@@ -1,77 +1,3 @@
-<style lang="stylus">
-.filter
-  box-sizing border-box
-  position relative
-  display flex
-  flex-direction row
-  height 10%
-  padding 10px 0 0 28px
-  font-size 0.8rem
-  color white
-  z-index 1
-  input
-    background transparent
-    border none
-    color white
-  .timeText
-    opacity 0.7
-    padding-right 7px
-  .startTime
-    display inline-block
-  .endTime
-    display inline-block
-    padding-left 42px
-  .el-date-editor
-    width 55%
-  .products
-    position absolute
-    top 15px
-    right 15px
-    .all
-      display inline-block
-      margin-right 18px
-      .v-checkbox
-        position relative
-        top 2px
-    .pro
-      float right
-      padding 2px 25px 2px 2px
-      .arrow
-        position absolute
-        width 6px
-        height 6px
-        margin-left 10px
-        border-left 2px solid white
-        border-bottom 2px solid white
-        transform rotate(-45deg)
-  .pro_list
-    position absolute
-    top 35px
-    right 20px
-    width 100px
-    text-align left
-    background #1e3642
-    font-size 14px
-    /*max-height 180px*/
-    overflow hidden
-    z-index 999
-    li
-      height 36px
-      line-height 36px
-      border-bottom 1px solid rgba(255, 255, 255, 0.1)
-      &:last-child
-       border none
-      .v-checkbox
-        left 8px
-      .name
-        position absolute
-        display inline-block
-        right 8px
-        overflow hidden
-        white-space nowrap
-        text-overflow ellipsis
-        width 70px
-</style>
 <template lang="html" scoped>
   <div class="filter">
     <div class="startTime">
@@ -216,3 +142,78 @@ export default {
 }
 
 </script>
+
+<style lang="stylus">
+.filter
+  box-sizing border-box
+  position relative
+  display flex
+  flex-direction row
+  height 10%
+  padding 10px 0 0 28px
+  font-size 0.8rem
+  color white
+  z-index 1
+  input
+    background transparent
+    border none
+    color white
+  .timeText
+    opacity 0.7
+    padding-right 7px
+  .startTime
+    display inline-block
+  .endTime
+    display inline-block
+    padding-left 42px
+  .el-date-editor
+    width 55%
+  .products
+    position absolute
+    top 15px
+    right 15px
+    .all
+      display inline-block
+      margin-right 18px
+      .v-checkbox
+        position relative
+        top 2px
+    .pro
+      float right
+      padding 2px 25px 2px 2px
+      .arrow
+        position absolute
+        width 6px
+        height 6px
+        margin-left 10px
+        border-left 2px solid white
+        border-bottom 2px solid white
+        transform rotate(-45deg)
+  .pro_list
+    position absolute
+    top 35px
+    right 20px
+    width 100px
+    text-align left
+    background #1e3642
+    font-size 14px
+    /*max-height 180px*/
+    overflow hidden
+    z-index 999
+    li
+      height 36px
+      line-height 36px
+      border-bottom 1px solid rgba(255, 255, 255, 0.1)
+      &:last-child
+       border none
+      .v-checkbox
+        left 8px
+      .name
+        position absolute
+        display inline-block
+        right 8px
+        overflow hidden
+        white-space nowrap
+        text-overflow ellipsis
+        width 70px
+</style>

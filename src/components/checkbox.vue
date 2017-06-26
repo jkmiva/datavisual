@@ -1,3 +1,18 @@
+<template lang="html">
+  <span class="v-checkbox" :class="{'checked':isChecked}"></span>
+</template>
+
+<script>
+export default {
+  props: {
+    isChecked: {
+      type: Boolean,
+      default: true
+    }
+  }
+}
+
+</script>
 <style lang="stylus">
 .v-checkbox
   position relative
@@ -20,18 +35,3 @@
       border-bottom 1px solid white
       transform rotate(45deg)
 </style>
-<template lang="html">
-  <span class="v-checkbox" :class="{'checked':isChecked}"></span>
-</template>
-
-<script>
-export default {
-  props: {
-    isChecked: {
-      type: Boolean,
-      default: true
-    }
-  }
-}
-
-</script>

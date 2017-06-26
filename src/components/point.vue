@@ -1,14 +1,3 @@
-<!-- 散点图 -->
-<style lang="stylus" scoped>
-.point
-  background url('../assets/bg.jpg') no-repeat
-  background-size 100% 100%
-  height 100%
-  .main
-    height 80%
-    width 100%
-</style>
-
 <template>
 <div class="point">
   <v-header :name="name" :linkType="linkType" :legendArr="legendArr" :myChart="myChart"></v-header>
@@ -203,3 +192,13 @@ export default {
 }
 
 </script>
+
+<style lang="stylus" scoped>
+.point
+  background url('../assets/bg.jpg') no-repeat
+  background-size 100% 100%
+  height 100%
+  .main
+    height 80%
+    width 100%
+</style>

@@ -1,15 +1,3 @@
-<!-- 柱状图 -->
-<style lang="stylus" scoped>
-.columnChart
-  height 100%
-  background url('../assets/bg.jpg') no-repeat
-  background-size 100% 100%
-  color white
-  .main
-    width 100%
-    height 80%
-</style>
-
 <template>
 <div class="columnChart">
   <v-header :name="name" :linkType="linkType" :legendArr="legendArr" :myChart="myChart"></v-header>
@@ -158,3 +146,14 @@ export default {
 }
 
 </script>
+
+<style lang="stylus" scoped>
+.columnChart
+  height 100%
+  background url('../assets/bg.jpg') no-repeat
+  background-size 100% 100%
+  color white
+  .main
+    width 100%
+    height 80%
+</style>
